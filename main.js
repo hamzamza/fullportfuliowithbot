@@ -49,14 +49,14 @@ ele[i]= document.getElementById("item"+i).innerHTML
             }
 
     }
-    if (ele[1]===ele[5] && ele[5]===ele[9] && ele[1]!=''){title.innerHTML=`${ele[1]} is the winner  <button class="refrech"><a href="index.html">3AWD</a></button> `
+    if (ele[1]===ele[5] && ele[5]===ele[9] && ele[1]!=''){title.innerHTML=`${ele[1]} is the winner  <button class="refrech"><a href="xo.html">3AWD</a></button> `
     win =1
     document.getElementById("item"+1).style.background="black"
         document.getElementById("item"+5).style.background="black"
         document.getElementById("item"+9).style.background="black"
 
     return 0 ;}
-    if (ele[3]===ele[5] && ele[5]===ele[7]  && ele[3]!=''){title.innerHTML=`${ele[3]} is the winner  <button class="refrech"><a href="index.html">3AWD</a></button> `
+    if (ele[3]===ele[5] && ele[5]===ele[7]  && ele[3]!=''){title.innerHTML=`${ele[3]} is the winner  <button class="refrech"><a href="xo.html">3AWD</a></button> `
     win =1
     document.getElementById("item"+3).style.background="black"
         document.getElementById("item"+5).style.background="black"
@@ -66,7 +66,7 @@ ele[i]= document.getElementById("item"+i).innerHTML
         for(let i=1; i<10 ;i++){
             if (ele[i]!='')n++ ;
         }
-    if (n===9){title.innerHTML= `salat lgame <button class="refrech"><a href="index.html">3AWD</a></button> `
+    if (n===9){title.innerHTML= `salat lgame <button class="refrech"><a href="xo.html">3AWD</a></button> `
     for(let i=1; i<10 ;i++){
         document.getElementById("item"+i).style.background="black"  
     }}
