@@ -1,94 +1,99 @@
-.navbar .dropdown{
+.navbar .dropdown {
+  display: none;
+}
+.srch {
+  display: none;
+}
+
+.bgkhfifa {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.534);
+}
+.bgkhfifa:hover {
+  background-color: rgba(128, 128, 128, 0.534);
+}
+.form-cont {
+  border: none;
+  outline: none;
+}
+.form-cont:hover {
+  border-bottom: 4px solid rgb(83, 83, 83);
+}
+.logo {
+  width: 70px;
+}
+.x {
+  font-size: 1rem;
+  margin-inline: 0.3em;
+  border-radius: 7px;
+}
+.x :hover {
+  background-color: rgb(255, 195, 195);
+}
+
+.y {
+  position: relative;
+}
+
+.y::after {
+  content: 'means hamza douaij';
+  position: absolute;
+  top: 70%;
+  left: -80%;
+  font-size: 50%;
+  color: rgba(0, 0, 0, 0.253);
+  transition: 0.4s;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.y:hover:after {
+  content: 'means hamza douaij';
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: 0.4s;
+}
+
+.home img {
+  width: 100%;
+}
+.work {
+  position: relative;
+}
+
+.work::after {
+  text-transform: uppercase;
+  content: 'xo game';
+  position: absolute;
+  top: 70%;
+  left: 110%;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.253);
+  transition: 0.4s;
+  border-left: 2px solid rgba(0, 0, 0, 0.212);
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.progress-bar,
+.progress {
+  height: 2px;
+}
+.work:hover:after {
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: 0.4s;
+}
+.colA {
+  padding-top: 200px;
+}
+
+@media (max-width: 1230px) {
+  .navbar .dropdown {
+    display: inline-block;
+  }
+  .navbar ul {
     display: none;
-
-
-}
-.srch{
-    display: none;
-}
-
-.bgkhfifa{
-    border: none;
-    background-color: rgba(128, 128, 128, 0.534);
-}
-.bgkhfifa:hover{
-    
-    background-color: rgba(128, 128, 128, 0.534);
-
-}
-.form-cont{border: none;outline: none;}
-.form-cont:hover{border-bottom:4px solid rgb(83, 83, 83) ;
-}
-.logo{
-    width: 70px;
-}
-.x{
-    font-size: 1rem;
-margin-inline:.3em ;
-border-radius: 7px;
-}
-.x :hover{
-    background-color: rgb(255, 195, 195);
-}
-
-.y{position: relative;}
-
-.y::after{
-    content: "means hamza douaij";
-    position: absolute;
-    top:70%;
-    left: -80%;
-    font-size: 50%;
-    color: rgba(0, 0, 0, 0.253);
-    transition: .4s;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    
-    }
-.y:hover:after{
-content: "means hamza douaij";
-position: absolute;
-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-transition: .4s;
-}
-
-.home img{
-    width: 100%;
-}
-.work{position: relative;}
-
-.work::after{
-    text-transform: uppercase;
-    content: "walo had sa3a";
-    position: absolute;
-    top:70%;
-    left: 110%;
-    width: 100%;
-    font-weight: 500;
-    font-size: 1rem;
-    color: rgba(0, 0, 0, 0.253);
-    transition: .4s;
-    border-left: 2px solid rgba(0, 0, 0, 0.212);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    
-    }
-    .progress-bar,.progress{height: 2px;}
-.work:hover:after{
-
-position: absolute;
-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-transition: .4s;
-
-
-}
-.colA{
-    padding-top: 200px;
-}
-
-
-@media (max-width:1230px){
-    .navbar .dropdown{display: inline-block;}
-    .navbar ul{display: none;}
-    .srch{
-        display: block;
-    }
+  }
+  .srch {
+    display: block;
+  }
 }
